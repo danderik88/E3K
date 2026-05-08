@@ -1,3 +1,11 @@
- saved_variables.cfg
- adxl_results/belts/*.csv
- adxl_results/vibrations/*.tar.gz
+# Backup files (SAVE_CONFIG creates these)
+printer-*.cfg
+
+# Accelerometer results
+adxl_results/
+
+# Saved variables (runtime state)
+saved_variables.cfg
+
+# OctoEverywhere credentials
+octoeverywhere.conf
