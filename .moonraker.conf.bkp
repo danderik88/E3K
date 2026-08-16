@@ -46,21 +46,6 @@ channel = stable
 repo = fluidd-core/fluidd
 path = ~/fluidd
 
-[update_manager octoeverywhere]
-type = git_repo
-channel = beta
-path = /home/daniel/octoeverywhere
-origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
-env = /home/daniel/octoeverywhere-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	octoeverywhere
-
-[announcements]
-subscriptions = 
-	octoeverywhere
-
 [update_manager Klipper-Adaptive-Meshing-Purging]
 type = git_repo
 channel = dev
@@ -103,7 +88,7 @@ managed_services = klipper moonraker
 [timelapse]
 
 [spoolman]
-server = http://192.168.0.180:7912
+server = http://127.0.0.1:7912
 sync_rate = 5
 
 [update_manager Klippain-ShakeTune]
