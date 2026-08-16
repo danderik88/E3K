@@ -80,5 +80,10 @@ push_config(){
   git push origin $branch
 }
 
+backup_spoolman(){
+  python3 /home/daniel/printer_data/config/spoolman_db_backup.py 2>/dev/null
+}
+
 grab_version
+backup_spoolman
 push_config
