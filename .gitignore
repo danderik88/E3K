@@ -9,3 +9,4 @@ saved_variables.cfg
 
 # OctoEverywhere credentials
 octoeverywhere.conf
+.DS_Store
