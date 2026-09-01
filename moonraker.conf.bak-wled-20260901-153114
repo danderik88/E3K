@@ -135,4 +135,3 @@ path: ~/klipper_tmc_autotune
 origin: https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services: klipper
 primary_branch: main
-
