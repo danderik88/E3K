@@ -35,8 +35,6 @@ enable: {{ 'LIGHT_OFF' in printer.gcode_macros.list }}
 #~# --- Do not edit below this line. This section is auto generated --- #~#
 #~#
 #~# [main]
-#~# screen_blanking = off
-#~# screen_blanking_printing = off
 #~# use_dpms = False
 #~# show_heater_power = True
 #~# show_scroll_steppers = True
@@ -62,7 +60,4 @@ enable: {{ 'LIGHT_OFF' in printer.gcode_macros.list }}
 #~# test_stream_delay = False
 #~# timelapse_render = False
 #~# timelapse_take_frame = False
-#~# 
-#~# [spoolman]
-#~# hide_archived = False
 #~#

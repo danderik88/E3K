@@ -136,12 +136,3 @@ origin: https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services: klipper
 primary_branch: main
 
-
-[update_manager KlipperScreen]
-type: git_repo
-path: ~/KlipperScreen
-origin: https://github.com/jordanruthe/KlipperScreen.git
-virtualenv: ~/.KlipperScreen-env
-requirements: scripts/KlipperScreen-requirements.txt
-system_dependencies: scripts/system-dependencies.json
-managed_services: KlipperScreen

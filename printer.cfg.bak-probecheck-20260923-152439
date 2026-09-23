@@ -398,9 +398,6 @@ gcode:
     LIGHT_ON
     G28 ; Home all axes
     G90 ; forza absolute positioning
-    M117 CHECK CR TOUCH
-    ; probe accuracy gate: 10 taps, range > tolerance (after 1 retry) = error, print aborts, Mobileraker push
-    PROBE SAMPLES=10 SAMPLES_TOLERANCE=0.0125 SAMPLES_TOLERANCE_RETRIES=1  ; measured range 0.005 on 2026-09-23
     M117 BED MESH CALIBRATE
     BED_MESH_CLEAR
     BED_MESH_CALIBRATE ADAPTIVE=1
