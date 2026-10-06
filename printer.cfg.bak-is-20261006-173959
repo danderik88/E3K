@@ -19,7 +19,7 @@
 # -------------------INCLUDE SECTIONN-------------------------------------------------
 
 # -------------------RESONANCE TEST------------
-[include InputShaper.cfg]  # Comment this out when you disconnect the accelerometer
+# [include InputShaper.cfg]  # Comment this out when you disconnect the accelerometer
 # ---------------------------------------------
 [include Spoolman.cfg]
 [include shelly.cfg]
