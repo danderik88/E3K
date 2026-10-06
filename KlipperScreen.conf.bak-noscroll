@@ -1,7 +1,3 @@
-[main]
-theme: e3k
-enable_addons: True
-
 [preheat PLA]
 extruder: 215
 heater_bed: 65
@@ -39,13 +35,11 @@ enable: {{ 'LIGHT_OFF' in printer.gcode_macros.list }}
 #~# --- Do not edit below this line. This section is auto generated --- #~#
 #~#
 #~# [main]
-#~# theme = e3k
 #~# screen_blanking = off
 #~# screen_blanking_printing = off
 #~# use_dpms = False
 #~# show_heater_power = True
 #~# show_scroll_steppers = True
-#~# enable_addons = True
 #~# invert_y = True
 #~# move_speed_xy = 100
 #~# move_speed_z = 20

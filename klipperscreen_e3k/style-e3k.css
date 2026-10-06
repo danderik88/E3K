@@ -1,0 +1,25 @@
+
+/* ===== E3K theme overrides (on top of z-bolt + noscroll) ===== */
+@define-color bg #1b1e23;
+@define-color active #30353d;
+@define-color tile #262a31;
+@define-color muted #8b929c;
+@define-color danger #e5484d;
+@define-color switch-scale-bg #5fd18b;
+
+button { border-radius: 10px; }
+button.color1, button.color2, button.color3, button.color4 {
+    border-bottom: 0; background-color: @tile; padding: 0.33em;
+}
+.action_bar button { background-color: @tile; margin: .35em; }
+.heater-grid button { background-color: transparent; }
+.e3k_tile { background-color: @tile; margin: .25em; }
+.e3k_print { background-color: #1f3a2a; }
+.e3k_print label { color: #5fd18b; font-weight: bold; }
+.e3k_off { background-color: #3a1517; border: 2px solid @danger; }
+.e3k_off label { color: @danger; }
+.e3k_off_armed { background-color: @danger; }
+.e3k_off_armed label { color: white; font-weight: bold; }
+.e3k_on { background-color: #3a3418; }
+.e3k_on label { color: #ffd75e; }
+.e3k_spool { color: @muted; margin: .3em .6em; }
