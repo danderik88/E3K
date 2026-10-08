@@ -42,8 +42,8 @@ enable: {{ 'LIGHT_OFF' in printer.gcode_macros.list }}
 #~#
 #~# [main]
 #~# theme = e3k
-#~# screen_blanking = 300
-#~# screen_blanking_printing = 300
+#~# screen_blanking = off
+#~# screen_blanking_printing = off
 #~# use_dpms = False
 #~# show_scroll_steppers = True
 #~# enable_addons = True
