@@ -101,16 +101,6 @@ system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
 
-[update_manager moonraker-obico-ender3]
-type = git_repo
-path = /home/daniel/moonraker-obico
-origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
-env = /home/daniel/moonraker-obico/../moonraker-obico-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	moonraker-obico-ender3
-
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
